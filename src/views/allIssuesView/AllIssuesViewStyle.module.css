@@ -15,7 +15,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.noIssues { 
+.noIssues {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,8 +37,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 1s;    
-    backdrop-filter: blur(3px)
+    transition: 1s;
+    backdrop-filter: blur(3px);
 }
 
 .cardLogout {

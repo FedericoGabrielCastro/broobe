@@ -1,4 +1,4 @@
-import styles from "./AuthCustomInputStyle.module.css"
+import styles from "./AuthCustomInputStyle.module.css";
 
 const AuthCustomInput = ({
     customIcon,
@@ -6,13 +6,12 @@ const AuthCustomInput = ({
     name,
     type,
     onChange,
-    placeholder
+    placeholder,
 }) => {
-
     return (
-       <div className={styles.inputWrapped}>
+        <div className={styles.inputWrapped}>
             {customIcon}
-            <input 
+            <input
                 className={styles.authInput}
                 id={id}
                 name={name}
@@ -20,8 +19,8 @@ const AuthCustomInput = ({
                 onChange={onChange}
                 placeholder={placeholder}
             />
-       </div>
-    )
-}
+        </div>
+    );
+};
 
-export default AuthCustomInput
+export default AuthCustomInput;

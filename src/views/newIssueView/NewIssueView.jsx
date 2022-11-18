@@ -1,9 +1,7 @@
-import styles from './NewIssueView.module.css'
+import styles from "./NewIssueView.module.css";
 
 const NewIssueView = () => {
-  return (
-    <div>NewIssueView</div>
-  )
-}
+    return <div>NewIssueView</div>;
+};
 
-export default NewIssueView
+export default NewIssueView;

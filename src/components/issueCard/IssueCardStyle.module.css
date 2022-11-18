@@ -35,11 +35,11 @@
 }
 
 .optionsIssue svg:nth-child(2):hover {
-    color: #D0342C;
+    color: #d0342c;
     transform: scale(1.1);
 }
 
 .description {
     height: 100%;
-    overflow: scroll;    
+    overflow: scroll;
 }

@@ -1,7 +1,7 @@
-import styles from './Loading.module.css'
+import styles from "./Loading.module.css";
 
 const Loading = () => {
-    return <span className={styles.loading} />
-}
+    return <span className={styles.loading} />;
+};
 
-export default Loading
+export default Loading;

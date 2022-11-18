@@ -1,19 +1,21 @@
-import { CREATE_ISSUE, CREATE_ISSUE_FAIL, CREATE_ISSUE_SUCCESS } from "../types"
+import {
+    CREATE_ISSUE,
+    CREATE_ISSUE_FAIL,
+    CREATE_ISSUE_SUCCESS,
+} from '../types';
 
-const initialState = {}
+const initialState = {};
 
-export const createIssueReducer = (state = initialState, { type } ) => {
-  
+export const createIssueReducer = (state = initialState, { type }) => {
     switch (type) {
-
         case CREATE_ISSUE_SUCCESS:
-            return window.location.href = "/issues"
+            return (window.location.href = '/issues');
         case CREATE_ISSUE_FAIL:
-            return state
+            return state;
         case CREATE_ISSUE:
-            return state
+            return state;
 
-    default:
-        return state
+        default:
+            return state;
     }
-}
+};

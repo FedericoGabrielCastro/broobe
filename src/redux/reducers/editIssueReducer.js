@@ -1,18 +1,17 @@
-import { EDIT_ISSUE_SUSSESS, EDIT_ISSUE_FAIL } from "../types"
+import { EDIT_ISSUE_SUSSESS, EDIT_ISSUE_FAIL } from '../types';
 
-const initialState = {}
+const initialState = {};
 
 export const editIssueReducer = (state = initialState, { type }) => {
     switch (type) {
-
         case EDIT_ISSUE_SUSSESS:
-            return window.location.href = "/issues"
+            return (window.location.href = '/issues');
         case EDIT_ISSUE_FAIL:
-            return { 
-                ...state 
-            }
+            return {
+                ...state,
+            };
 
-    default:
-        return state
+        default:
+            return state;
     }
-}
+};
