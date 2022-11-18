@@ -1,0 +1,45 @@
+.issueBox {
+    box-shadow: 0px 0px 10px 5px #000;
+    /* padding: 10px; */
+    width: 350px;
+    height: 200px;
+    border: 10px solid transparent;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.issueBox h3 {
+    text-decoration: underline;
+}
+
+.optionsIssue {
+    position: absolute;
+    align-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 5px;
+}
+
+.optionsIssue svg {
+    font-size: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.optionsIssue svg:nth-child(1):hover {
+    color: #2d572c;
+    transform: scale(1.1);
+}
+
+.optionsIssue svg:nth-child(2):hover {
+    color: #D0342C;
+    transform: scale(1.1);
+}
+
+.description {
+    height: 100%;
+    overflow: scroll;    
+}

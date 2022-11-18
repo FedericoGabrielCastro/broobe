@@ -1,0 +1,14 @@
+.issuesPage {
+    height: 100vh;
+    width: 100vw;
+    min-width: 320px;
+    background-image: url("../../assets/pageBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
