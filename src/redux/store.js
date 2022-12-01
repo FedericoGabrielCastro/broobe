@@ -10,7 +10,6 @@ const middleWare = [sagaMiddleware];
 
 export const store = createStore(
     rootReducer,
-    {},
     composeWithDevTools(applyMiddleware(...middleWare))
 );
 
